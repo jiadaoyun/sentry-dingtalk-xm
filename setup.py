@@ -22,7 +22,7 @@ URL = 'https://github.com/jiadaoyun/sentry-dingtalk-xm'
 EMAIL = 'jiadaoyun@126.com'
 AUTHOR = 'xm'
 REQUIRES_PYTHON = '>=3.6.13'
-VERSION = '1.0.1'
+VERSION = '1.2.1'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
@@ -115,7 +115,7 @@ setup(
     # py_modules=['mypackage'],
 
     entry_points={
-        "sentry.plugins": ["sentry_dingtalk_notify = sentry_dingtalk_notify.plugin:DingTalkNotifyPlugin"],
+        "sentry.plugins": ["sentry_dingtalk_xm = sentry_dingtalk_xm.plugin:DingTalkNotifyPlugin"],
     },
     install_requires=REQUIRED,
     extras_require=EXTRAS,

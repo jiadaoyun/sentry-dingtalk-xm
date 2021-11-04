@@ -16,9 +16,9 @@ from shutil import rmtree
 from setuptools import find_packages, setup, Command
 
 # Package meta-data.
-NAME = 'sentry-dingtalk-notify'
+NAME = 'sentry-dingtalk-xm'
 DESCRIPTION = 'A sentry extension integrates DingTalk robot webhook'
-URL = 'https://github.com/jiadaoyun/sentry-dingtalk-notify'
+URL = 'https://github.com/jiadaoyun/sentry-dingtalk-xm'
 EMAIL = 'jiadaoyun@126.com'
 AUTHOR = 'xm'
 REQUIRES_PYTHON = '>=3.6.13'
